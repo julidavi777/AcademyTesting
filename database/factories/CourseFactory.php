@@ -17,10 +17,10 @@ class CourseFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->name(),
+            'name' => $this->faker->randomElemt(['Dibujo 1']),
             'description' => $this->faker->word(),
             'duration' => $this->faker->randomElement([10,20,30,40,50,60,70,80,90]),
-            'image' => $this->faker->word()
+            'image' => $this->faker->randomElement(['curso1.jpg','curso2.jpg'])
         ];
     }
 }
