@@ -21,7 +21,8 @@ class DatabaseSeeder extends Seeder
             CountrySeeder::class,
             DepartmentSeeder::class,
             SubjectSeeder::class,
-            MunicipalitySeeder::class
+            MunicipalitySeeder::class,
+            CourseSeeder::class
         ]);
     }
 }
